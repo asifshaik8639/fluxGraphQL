@@ -1,0 +1,61 @@
+{
+  "name": "rgrjs",
+  "version": "1.0.0",
+  "description": "A collection of resources",
+  "scripts": {
+    "start": "C:/POC/rgrjs/node_modules/.bin/babel-node --presets react,es2015 server.js",
+    "compile": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgrjs/rgrjs.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgrjs/rgrjs.com/issues"
+  },
+  "homepage": "https://github.com/rgrjs/rgrjs.com#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "bootstrap-loader": "^2.2.0",
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.28.5",
+    "events": "^1.1.1",
+    "express": "^4.15.4",
+    "express-graphql": "^0.4.5",
+    "flux": "^3.1.3",
+    "graphql": "^0.4.14",
+    "jquery": "^3.2.1",
+    "kerberos": "0.0.23",
+    "loader": "^2.1.1",
+    "mongodb": "^2.2.31",
+    "node-sass": "^4.5.3",
+    "postcss": "^6.0.9",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-relay": "^1.2.0",
+    "react-toolbox": "^2.0.0-beta.12",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "open": "0.0.5",
+    "postcss-loader": "^2.0.6"
+  }
+}
